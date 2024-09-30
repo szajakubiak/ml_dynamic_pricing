@@ -1,3 +1,4 @@
 jupyterlab
 pandas
 tensorflow[and-cuda]
+matplotlib
