@@ -44,3 +44,6 @@ There are several categorical properties in the dataset: *Location_Category*, *C
 Additionaly new property was created by calculating the difference between *Number_of_Drivers* and *Number_of_Riders*.
 
 In all cases original categories were excluded.
+
+## Links
+[TensFlow guide](https://www.tensorflow.org/guide)
