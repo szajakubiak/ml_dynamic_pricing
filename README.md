@@ -45,5 +45,13 @@ Additionaly new property was created by calculating the difference between *Numb
 
 In all cases original categories were excluded.
 
+## Training ML model
+
+### Data split
+
+### Model structure
+
+### Output analysis
+
 ## Links
 [TensFlow guide](https://www.tensorflow.org/guide)
