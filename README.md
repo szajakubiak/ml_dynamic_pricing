@@ -31,9 +31,9 @@ pip install -r requirements.txt
 
 ### Run Jupyter Lab
 ``` bash
-jupyter lab --no-browser
+jupyter lab --no-browser --notebook-dir=~/ml_dynamic_pricing
 ```
-You can skip *--no-browser* if you are using PC with Linux installed as a main OS. In such case web browser will be opened with Jupyter Lab tab. If you are on a virtual Linux machine it's better to start web browser on your main system (Windows in my case) and paste in the adress bar link which you will get in the terminal window starting with *localhost:8888/lab* or *127.0.0.1:8888/lab*. Remember to copy the full link with the access token.
+You can skip *--no-browser* if you are using PC with Linux installed as a main OS. In such case web browser will be opened with Jupyter Lab tab. If you are on a virtual Linux machine it's better to start web browser on your main system (Windows in my case) and paste in the adress bar link which you will get in the terminal window starting with *localhost:8888/lab* or *127.0.0.1:8888/lab*. Remember to copy the full link with the access token. You may also change the directory address where you have saved the files downloaded from repository.
 
 ## Input data transformations
 There are several categorical properties in the dataset: *Location_Category*, *Customer_Loyalty_Status*, *Time_of_Booking*, and *Vehicle_Type*. Two types of encoding was used to convert them into numerical properties:
